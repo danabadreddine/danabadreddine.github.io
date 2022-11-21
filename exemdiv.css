@@ -1,0 +1,8 @@
+div *  p {color:red}
+div * li {color:pink}
+
+.menu li .sel {
+font-size : 24pt ;
+}
+
+#menu > p {color:yellowgreen}
