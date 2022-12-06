@@ -26,7 +26,17 @@ body {background-color: lightgrey;}
 
 /*Ex: page3*/
 
+
 ol {list-style-type: upper-roman;}
+ul {list-style-type: lower-roman;}
+
+nav{
+position : absolute;
+left : 30px;
+width:100px;
+border : 2px solid black;
+height: 2em;
+}
 
 
 </style>
