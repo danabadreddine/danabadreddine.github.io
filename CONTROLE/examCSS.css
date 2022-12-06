@@ -1,4 +1,32 @@
-#examCSS
-	<style>
-h1{color:red;}
-	</style>
+/*Ex index*/
+
+<style>
+ 
+ body {background-image: url("cement.jpg");
+ 	}
+body {background-color: lightgrey;}
+
+/*j'ai ajoute une image de fond en gros clair parce que mon image ne charge pas*/
+
+    h1{text-align:center;}
+    h2{color:blue;
+    	background-color: grey;}
+
+    p{text-indent: 16px;
+        text-align:justify-all;}
+
+.surligne {
+    background-color: seashell;
+}
+
+    p{background-color:seashell;}
+    p{color:yellow;}
+    div p{color:slateblue}
+
+
+/*Ex: page3*/
+
+ol {list-style-type: upper-roman;}
+
+
+</style>
