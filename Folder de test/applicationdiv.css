@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UFT-8">
+		<title> Exemple test</title>
+		<link rel="stylesheet" type="text/css"
+		href="exemdiv.css">
+
+		</head>
+		<body>
+			<p>juste p</p>
+			<strong><p>Strong puis p</p></strong>
+			<div>
+				<p>Div puis p</p>
+				<strong><p>div puis stronf puis p</p></strong>
+				<ol>
+					<li><p>div puis ol puis li puis p</p></li>
+				</ol>
+			</div>
+		</body>
+	<html>
+	
