@@ -1,0 +1,55 @@
+
+	body { /* On va faire des modifications concernant la couleur de fond de page, la police, et l'unité utilisée pour la taille de la police pour personaliser notre page */
+    background-color : rdgb (232, 35, 35);
+    font-family : system-ui; /* cette balise permet de changer la police police */
+    font-size :17px; /* cette balise permet de modifier la taille de la police */
+	background-color: whitesmoke;
+
+}  /* On change la couleur de fond de page en un blanc un peu plus fonce */ 
+
+	h1 {text-align : center; color: black ; } /* On met au centre notre titre */
+
+h2 {text-align: right;/* On veut que la partie des informations du destinataire soit a droite pour respecter la formalite des lettres */
+	font-weight: 400; 
+    margin :10px;
+    padding :50px;
+    text-indent :20px;
+    line-height :20px;
+    font-size :20px;
+  } /* on change la presentation (parce qu'il etait en gras) */
+
+h3 {text-align: center; 
+	color: red;
+	text-decoration: underline;
+
+} /* Notre objet est a present en rouge, souligne et au centre */
+
+
+@media print {
+  fieldset {
+    border: none;
+  }
+
+  legend {
+    display: none;
+  }
+
+  input[type="checkbox"] {
+    display: none;
+} 
+  input[type="checkbox"]:not(:checked) + label{
+    display: none;
+} 
+  
+  input[type="checkbox"]:checked + label::before {
+    content: "- ";
+  }
+
+/* On prend celui qui est checke, et dans celui qui est checke je recupere le label, et juste avant le label je met le contenu du contexte (un tiret a la place des cases)
+jai recupere l'information en mettant un - devant 
+De cette facon, lors de l'impression en PDF, je retrouverai les elements que j'ai coche qui me correspondent 
+Et la case a cocher va etre remplacee par un tiret*/
+
+
+.Informations {border:none;}
+/* Grace a ca, on n'aura plus les encadres quand on imprime
